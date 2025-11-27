@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Page</title>
+  <style>
+    /* Basic styling that works in iframe */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #0056b3;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #0056b3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a.button:hover {
+      background-color: #003d80;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to GearShift Transport</h1>
+  <p>This is your embedded HTML page, fully compatible with Google Sites.</p>
+  <a href="https://yourwebsite.com" class="button" target="_blank">Visit Full Site</a>
+</body>
+</html>
